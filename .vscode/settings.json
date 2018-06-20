@@ -1,8 +1,7 @@
 {
- "eslint.autoFixOnSave": true,
- "editor.formatOnSave": true,
- "pandoc.htmlOptString":
-  "-s -t html5 --css=\"E:/my projects/jsflow/css/style.css\"",
- "cSpell.language": "en,ru",
- "prettier.tabWidth": 1
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "pandoc.htmlOptString": "-s -t html5 --css=/css/style.css",
+    "cSpell.language": "en,ru",
+    "prettier.tabWidth": 1
 }
