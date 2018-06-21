@@ -1,0 +1,58 @@
+---  
+# Only the main Sass file needs front matter (the dashes are enough) 
+---  
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=cyrillic');
+
+/* system typefaces */
+$sans-serif: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif !default;
+
+/* type scale */
+$type-size-1: 2.441rem !default; // ~39.056px
+$type-size-2: 1.953rem !default; // ~31.248px
+$type-size-3: 1.563rem !default; // ~25.008px
+$type-size-4: 1.25rem !default; // ~20px
+$type-size-5: 1rem !default; // ~16px
+$type-size-6: 0.75rem !default; // ~12px
+$type-size-7: 0.6875rem !default; // ~11px
+$type-size-8: 0.625rem !default; // ~10px
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+html {
+  font-size: $doc-font-size + 0px;
+
+  @include breakpoint($medium) {
+    font-size: $doc-font-size + 1px;
+  }
+
+  @include breakpoint($large) {
+    font-size: $doc-font-size + 2px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: $doc-font-size + 3px;
+  }
+}
+
+.nav__list .nav__items {
+  font-size: 1rem;
+}
+
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: 1rem;
+  }
+
+  .nav__list .nav__items li{
+  font-size: .75rem;
+}
+}
+
+

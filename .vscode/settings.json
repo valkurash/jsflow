@@ -1,7 +1,10 @@
 {
     "eslint.autoFixOnSave": true,
     "editor.formatOnSave": true,
-    "pandoc.htmlOptString": "-s -t html5 --css=/css/style.css",
     "cSpell.language": "en,ru",
-    "prettier.tabWidth": 1
+    "prettier.tabWidth": 1,
+    "prettier.disableLanguages": ["scss"],
+    "[scss]": {
+        "editor.formatOnSave": false
+    }
 }

@@ -1,0 +1,39 @@
+docs:
+  - title: Введение
+    children:
+      - title: Обзор курса и настройки окружения
+        url: /docs/intro/intro.html
+  - title: Основные понятия и определения
+    children:
+      - title: Переменные
+        url: /docs/basics/variables.html
+      - title: Объект
+        url: /docs/basics/object.html
+      - title: Функция
+        url: /docs/basics/function.html
+      - title: Блок инструкий
+        url: /docs/basics/block.html
+      - title: Операции, выражения и инструкции [operators, expressions and statements]
+        url: /docs/basics/operators_expressions_statements.html
+      - title: Режим "use strict"
+        url: /docs/basics/use_strict.html
+  - title: Лексическое окружение
+    children:
+      - title: Устройство JavaScript-движков
+        url: /docs/lexEnv_execContex/js_engines/js_engines.html
+      - title: Область видимости. Основы
+        url: /docs/lexEnv_execContex/scope/scope_fundamentals.html
+      - title: Блоки как области видимости. Переменные `let` и `const`
+        url: /docs/lexEnv_execContex/scope/block_scope.html
+      - title: Лексические области видимости и лексическое окружение
+        url: /docs/lexEnv_execContex/lex_env/lex_env.html
+  - title: Контекст выполнения
+    children:
+      - title: Контекст выполнения. Основы
+        url: /docs/lexEnv_execContex/exec_context/exec_context_foundamentals.html
+      - title: Этапы создания и выполнения контекста
+        url: /docs/lexEnv_execContex/exec_context/create_exec_phase.html
+      - title: Вызов функций и стек контекстов выполнения
+        url: /docs/lexEnv_execContex/exec_context/exec_stack.html
+      - title: Контекст выполнения и блочная область видимости
+        url: /docs/lexEnv_execContex/exec_context/block_exec_context.html
