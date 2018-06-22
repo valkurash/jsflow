@@ -58,7 +58,7 @@ google:
   instant_search         : # false (default), true
 
 # SEO Related
-google_site_verification :
+google_site_verification : Oqn40vpxjQB62bC_rt8UBmclwv8FFIUIb3sJZ4rpxKE
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -80,9 +80,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google
   google:
-    tracking_id          :
+    tracking_id          : UA-121238522-1
     anonymize_ip         : # true, false (default)
 
 # Site Author
@@ -91,7 +91,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : 
   location         : Москва
-  email            :
+  email            : valkurash@gmail.com
   uri              :
   home             : https://valkurash.github.io/
   bitbucket        :

@@ -4,13 +4,9 @@ title:  Основные понятия и определения
 
 В начале разберем несколько основных понятий, которые нам понадобятся в дальнейшем.
 
-1. Переменные
-2. Объект
-3. Функция
-4. Блок инструкций
-5. Операции, выражения и инструкции [operators, expressions and statements]
-   1. Операции [operators]
-   2. Выражения [expressions]
-   3. Инструкции [statements]
-6. Функциональные выражения [function expression]
-7. Режим "use strict"
+1. [Переменные](/docs/basics/variables.html)
+2. [Объект](/docs/basics/object.html)
+3. [Функция](/docs/basics/function.html)
+4. [Блок инструкций](/docs/basics/block.html)
+5. [Операции, выражения и инструкции [operators, expressions and statements]](/docs/basics/operators_expressions_statements.html)
+6. [Режим "use strict"](/docs/basics/use_strict.html)

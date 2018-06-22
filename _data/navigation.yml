@@ -13,7 +13,7 @@ docs:
         url: /docs/basics/object.html
       - title: Функция
         url: /docs/basics/function.html
-      - title: Блок инструкий
+      - title: Блок инструкций
         url: /docs/basics/block.html
       - title: Операции, выражения и инструкции [operators, expressions and statements]
         url: /docs/basics/operators_expressions_statements.html
