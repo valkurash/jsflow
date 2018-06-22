@@ -3,6 +3,8 @@ docs:
     children:
       - title: Обзор курса и настройки окружения
         url: /docs/intro/intro.html
+      - title: Подключение и выполнение JavaScript кода браузере. Базовый синтаксис языка
+        url: /docs/intro/programm_launch.html
   - title: Основные понятия и определения
     children:
       - title: Переменные
@@ -20,20 +22,20 @@ docs:
   - title: Лексическое окружение
     children:
       - title: Устройство JavaScript-движков
-        url: /docs/lexEnv_execContex/js_engines/js_engines.html
+        url: /docs/lexical_environment/js_engines.html
       - title: Область видимости. Основы
-        url: /docs/lexEnv_execContex/scope/scope_fundamentals.html
+        url: /docs/lexical_environment/scope_fundamentals.html
       - title: Блоки как области видимости. Переменные `let` и `const`
-        url: /docs/lexEnv_execContex/scope/block_scope.html
+        url: /docs/lexical_environment/block_scope.html
       - title: Лексические области видимости и лексическое окружение
-        url: /docs/lexEnv_execContex/lex_env/lex_env.html
+        url: /docs/lexical_environment/lex_env.html
   - title: Контекст выполнения
     children:
       - title: Контекст выполнения. Основы
-        url: /docs/lexEnv_execContex/exec_context/exec_context_foundamentals.html
+        url: /docs/execution_context/exec_context_fundamentals.html
       - title: Этапы создания и выполнения контекста
-        url: /docs/lexEnv_execContex/exec_context/create_exec_phase.html
+        url: /docs/execution_context/create_exec_phase.html
       - title: Вызов функций и стек контекстов выполнения
-        url: /docs/lexEnv_execContex/exec_context/exec_stack.html
+        url: /docs/execution_context/exec_stack.html
       - title: Контекст выполнения и блочная область видимости
-        url: /docs/lexEnv_execContex/exec_context/block_exec_context.html
+        url: /docs/execution_context/block_exec_context.html
