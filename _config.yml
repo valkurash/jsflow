@@ -7,7 +7,8 @@ locale: "ru-RU"
 title: Особенности разработки на JavaScript
 title_separator: "|"
 description: Курс нацелен на формирование глубокого понимания основных концепций и особенностей разработки на JavaScript.
-url: http://jsflow.org
+name: &name "Val Kurashova"
+url: http://jsflow.org/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : valkurash/jsflow
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -87,7 +88,7 @@ analytics:
 
 # Site Author
 author:
-  name             : Валентина Курашова
+  name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : 
   location         : Москва
