@@ -41,6 +41,14 @@ html {
 
 .nav__list .nav__items {
   font-size: 1rem;
+
+   a {
+    padding-bottom: 10px;
+    display: inline-block;
+    &:hover{
+        text-decoration: underline;
+    }
+}
 }
 
 .page__content {

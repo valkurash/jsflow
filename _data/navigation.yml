@@ -2,40 +2,40 @@ docs:
   - title: Введение
     children:
       - title: Обзор курса и настройки окружения
-        url: /docs/intro/intro.html
+        url: /docs/intro/overview 
       - title: Подключение и выполнение JavaScript кода в браузере. Базовый синтаксис языка
-        url: /docs/intro/programm_launch.html
+        url: /docs/intro/programm_launch 
   - title: Основные понятия и определения
     children:
       - title: Переменные
-        url: /docs/basics/variables.html
+        url: /docs/basics/variables 
       - title: Объект
-        url: /docs/basics/object.html
+        url: /docs/basics/object 
       - title: Функция
-        url: /docs/basics/function.html
+        url: /docs/basics/function 
       - title: Блок инструкций
-        url: /docs/basics/block.html
+        url: /docs/basics/block 
       - title: Операции, выражения и инструкции [operators, expressions and statements]
-        url: /docs/basics/operators_expressions_statements.html
+        url: /docs/basics/operators_expressions_statements 
       - title: Режим "use strict"
-        url: /docs/basics/use_strict.html
+        url: /docs/basics/use_strict 
   - title: Лексическое окружение
     children:
       - title: Устройство JavaScript-движков
-        url: /docs/lexical_environment/js_engines.html
+        url: /docs/lexical_environment/js_engines 
       - title: Область видимости. Основы
-        url: /docs/lexical_environment/scope_fundamentals.html
+        url: /docs/lexical_environment/scope_fundamentals 
       - title: Блоки как области видимости. Переменные `let` и `const`
-        url: /docs/lexical_environment/block_scope.html
+        url: /docs/lexical_environment/block_scope 
       - title: Лексические области видимости и лексическое окружение
-        url: /docs/lexical_environment/lex_env.html
+        url: /docs/lexical_environment/lex_env 
   - title: Контекст выполнения
     children:
       - title: Контекст выполнения. Основы
-        url: /docs/execution_context/exec_context_fundamentals.html
+        url: /docs/execution_context/exec_context_fundamentals 
       - title: Этапы создания и выполнения контекста
-        url: /docs/execution_context/create_exec_phase.html
+        url: /docs/execution_context/create_exec_phase 
       - title: Вызов функций и стек контекстов выполнения
-        url: /docs/execution_context/exec_stack.html
+        url: /docs/execution_context/exec_stack 
       - title: Контекст выполнения и блочная область видимости
-        url: /docs/execution_context/block_exec_context.html
+        url: /docs/execution_context/block_exec_context 
