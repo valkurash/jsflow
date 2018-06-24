@@ -1,8 +1,10 @@
 language: ruby
 cache: bundler
+gemfile: Gemfile
 before_install:
   - gem install bundler
 script:
+  - ls
   - bundle exec jekyll algolia
 branches:
   only:
