@@ -4,7 +4,7 @@ gemfile: Gemfile
 before_install:
   - gem install bundler
 script:
-  - bandle install
+  - bundle install
   - bundle exec jekyll algolia
 branches:
   only:
