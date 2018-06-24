@@ -1,6 +1,7 @@
 language: ruby
 cache: bundler
 script:
+  - ls
   - bundle exec jekyll algolia
 branches:
   only:
