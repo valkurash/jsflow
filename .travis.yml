@@ -1,8 +1,10 @@
 language: ruby
 cache: bundler
+before_install:
+  - gem install bundler
 gemfile: Gemfile
 script:
-  - bundle exec jekyll algolia --destination _site --config _config.yml
+  - bundle exec jekyll algolia
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
