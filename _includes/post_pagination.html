@@ -1,0 +1,59 @@
+{% if page.is_doc %}
+
+{% assign doclist = site.docs | sort: 'order'  %}
+{% for links in doclist  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = doclist[forloop.index] %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+
+  {% assign prev = links %}
+
+  {% assign prevtitle = prev.title %}
+  {% assign nexttitle = next.title %}
+
+{% endfor %}
+
+{% elsif page.previous or page.next %}
+
+{% assign prevurl = page.previous.url %}
+{% assign nexturl = page.next.url %}
+{% assign prevtitle = page.previous.title %}
+{% assign nexttitle = page.next.title %}
+
+{% endif %}
+
+{% if prevurl or nexturl %}
+
+<nav class="pagination">
+    {% if prevurl %}
+    <a href="{{ prevurl | relative_url }}" class="pagination--pager" title="{{ prevtitle | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+    <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% endif %} 
+
+    {% if nexturl %}
+    <a href="{{ nexturl | relative_url }}" class="pagination--pager" title="{{ nexttitle | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+    <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% endif %}
+</nav>
+
+<div class="github-edit"> Обнаружили ошибку или хотите добавить что-то своё в документацию?
+                <a href="https://github.com/valkurash/jsflow/blob/master/{{page.path}}" target="_blank">Отредактируйте эту страницу на GitHub!</a>
+</div>
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
+
+{% endif %}
+

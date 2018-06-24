@@ -210,16 +210,25 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-  # Defaults
+
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
 defaults:
   # docs
   - scope:
       path: ""
-      type: pages
+      type: docs
     values:
+      is_doc: true
       layout: single
       classes: wide
       sidebar:
         nav: "docs"
       share: true
       comments: true
+
+

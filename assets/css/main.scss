@@ -63,4 +63,27 @@ html {
 }
 }
 
+.search__toggle{
+
+&:focus {
+    outline: none;
+}
+
+  .icon.close{
+    display:none;
+  }
+  .icon.open{
+    display:block;
+  }
+
+  &.is--open{
+    .icon.open{
+    display:none;
+  }
+    .icon.close{
+    display:block;
+  }
+  }
+}
+
 
