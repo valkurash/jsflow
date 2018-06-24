@@ -1,13 +1,7 @@
 language: ruby
 cache: bundler
 script:
-  - ls
-  - cd ..
-  - ls
-  - cd jsflow
-  - ls
   - bundle exec jekyll algolia
-  - cat Gemfile
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
