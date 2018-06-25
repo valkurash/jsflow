@@ -5,7 +5,7 @@
  Справа от строки указывается вариант решения ошибки. */
 
 // используется необъявленная переменная
-undeclaredVariable = "Успешное начало программы"; // let undeclaredVariable = "Успешное начало программы";
+let undeclaredVariable = "Успешное начало программы"; // let undeclaredVariable = "Успешное начало программы";
 
 console.log(undeclaredVariable);
 

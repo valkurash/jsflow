@@ -5,6 +5,8 @@ docs:
         url: /docs/overview
       - title: Подключение и выполнение JavaScript кода в браузере. Базовый синтаксис языка
         url: /docs/programm-launch
+      - title: Отладка JavaScript программы в браузере. Инструменты Разработчика
+        url: /docs/troubleshooting
   - title: Основные понятия и определения
     children:
       - title: Переменные
