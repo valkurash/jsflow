@@ -233,7 +233,7 @@ barEnvironment = {
 
 Схематично это можно изобразить так:
 
-![схема лексических окружений](/assets/images/exical_environment/lexEnv1.png)
+![схема лексических окружений](/assets/images/lexical_environment/lexEnv1.png)
 
 Теперь разберем пример с большей вложенностью функций.
 
@@ -294,4 +294,4 @@ var z = y + x;
 
 Схематично Лексические окружения в этом примере можно представить так:
 
-![схема лексических окружений](/assets/images/exical_environment/lexEnv2.png)
+![схема лексических окружений](/assets/images/lexical_environment/lexEnv2.png)
