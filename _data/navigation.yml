@@ -36,7 +36,7 @@ docs:
       - title: Контекст выполнения. Основы
         url: /docs/exec-context-fundamentals
       - title: Этапы создания и выполнения контекста
-        url: /docs/create-exec-phase/
+        url: /docs/create-exec-phase
       - title: Вызов функций и стек контекстов выполнения
         url: /docs/exec-stack
       - title: Контекст выполнения и блочная область видимости

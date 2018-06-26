@@ -269,6 +269,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-paginate
+  jekyll-relative-links
   jekyll-sitemap
   jemoji
 

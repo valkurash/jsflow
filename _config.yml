@@ -201,6 +201,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-relative-links
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -209,13 +210,19 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-relative-links
 
 
 collections:
   docs:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name/
 
+relative_links:
+  enabled:     true
+  collections: true
+
+  
 # Defaults
 defaults:
   # docs
