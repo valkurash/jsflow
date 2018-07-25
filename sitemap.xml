@@ -15,6 +15,15 @@ search: exclude
     </url>
     {% endfor %}
 
+    {% for page in site.docs %}
+    <url>
+        <loc>{{site.url}}{{page.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
     {% for post in site.posts %}
     <url>
         <loc>{{post.url}}</loc>
