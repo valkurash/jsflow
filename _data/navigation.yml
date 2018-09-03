@@ -1,43 +1,43 @@
 docs:
-  - title: Введение
-    children:
-      - title: Обзор курса и настройки окружения
-        url: /docs/overview
-      - title: Подключение и выполнение JavaScript кода в браузере. Базовый синтаксис языка
-        url: /docs/programm-launch
-      - title: Отладка JavaScript программы в браузере. Инструменты Разработчика
-        url: /docs/troubleshooting
-  - title: Основные понятия и определения
-    children:
-      - title: Переменные
-        url: /docs/variables
-      - title: Объект
-        url: /docs/object
-      - title: Функция
-        url: /docs/function
-      - title: Блок инструкций
-        url: /docs/block
-      - title: Операции, выражения и инструкции [operators, expressions and statements]
-        url: /docs/operators-expressions-statements
-      - title: Режим "use strict"
-        url: /docs/use-strict
-  - title: Лексическое окружение
-    children:
-      - title: Устройство JavaScript-движков
-        url: /docs/js-engines
-      - title: Область видимости. Основы
-        url: /docs/scope-fundamentals
-      - title: Блоки как области видимости. Переменные `let` и `const`
-        url: /docs/block-scope
-      - title: Лексические области видимости и лексическое окружение
-        url: /docs/lex-env
-  - title: Контекст выполнения
-    children:
-      - title: Контекст выполнения. Основы
-        url: /docs/exec-context-fundamentals
-      - title: Этапы создания и выполнения контекста
-        url: /docs/create-exec-phase
-      - title: Вызов функций и стек контекстов выполнения
-        url: /docs/exec-stack
-      - title: Контекст выполнения и блочная область видимости
-        url: /docs/block-exec-context
+ - title: Введение
+   children:
+    - title: Обзор курса и настройки окружения
+      url: /docs/overview/
+    - title: Подключение и выполнение JavaScript кода в браузере. Базовый синтаксис языка
+      url: /docs/programm-launch/
+    - title: Отладка JavaScript программы в браузере. Инструменты Разработчика
+      url: /docs/troubleshooting/
+ - title: Основные понятия и определения
+   children:
+    - title: Переменные
+      url: /docs/variables/
+    - title: Объект
+      url: /docs/object/
+    - title: Функция
+      url: /docs/function/
+    - title: Блок инструкций
+      url: /docs/block/
+    - title: Операции, выражения и инструкции [operators, expressions and statements]
+      url: /docs/operators-expressions-statements/
+    - title: Режим "use strict"
+      url: /docs/use-strict/
+ - title: Лексическое окружение
+   children:
+    - title: Устройство JavaScript-движков
+      url: /docs/js-engines/
+    - title: Область видимости. Основы
+      url: /docs/scope-fundamentals/
+    - title: Блоки как области видимости. Переменные `let` и `const`
+      url: /docs/block-scope/
+    - title: Лексические области видимости и лексическое окружение
+      url: /docs/lex-env/
+ - title: Контекст выполнения
+   children:
+    - title: Контекст выполнения. Основы
+      url: /docs/exec-context-fundamentals/
+    - title: Этапы создания и выполнения контекста
+      url: /docs/create-exec-phase/
+    - title: Вызов функций и стек контекстов выполнения
+      url: /docs/exec-stack/
+    - title: Контекст выполнения и блочная область видимости
+      url: /docs/block-exec-context/
