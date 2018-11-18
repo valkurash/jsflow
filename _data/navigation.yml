@@ -41,3 +41,9 @@ docs:
       url: /docs/exec-stack/
     - title: Контекст выполнения и блочная область видимости
       url: /docs/block-exec-context/
+    - title: Ключевое слово this. Основы
+      url: /docs/this-keyword/
+ - title: Типы данных и операторы
+   children:
+    - title: Типы данных в JavaScript
+      url: /docs/types/
