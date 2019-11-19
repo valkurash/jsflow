@@ -17,9 +17,9 @@ order: 15
 
 ```javascript
 showText();
-console.log(value);
 
 var value = "Переменная value";
+console.log(value);
 
 function showText() {
  console.log("Вызов функции showText()");
